@@ -13,7 +13,7 @@ Public Functions:
 - `MergePatch(doc, merge) -> doc` : Applies a MergePatch to a JSON document and returns the new doc.
 - `MergeMergePatch(merge, merge) -> merge` : Merges two Merge Patch documents into a single.
 
-```
+```go
 package main
 
 import (
